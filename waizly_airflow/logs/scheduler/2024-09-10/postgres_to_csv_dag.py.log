@@ -1560,3 +1560,17 @@
 [2024-09-10T03:12:27.147+0000] {logging_mixin.py:151} INFO - [2024-09-10T03:12:27.145+0000] {dag.py:2907} INFO - Sync 1 DAGs
 [2024-09-10T03:12:27.183+0000] {logging_mixin.py:151} INFO - [2024-09-10T03:12:27.183+0000] {dag.py:3677} INFO - Setting next_dagrun for postgres_to_csv_dag to 2024-09-10T00:00:00+00:00, run_after=2024-09-11T00:00:00+00:00
 [2024-09-10T03:12:27.203+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/postgres_to_csv_dag.py took 0.751 seconds
+[2024-09-10T03:12:57.852+0000] {processor.py:157} INFO - Started process (PID=360) to work on /opt/airflow/dags/postgres_to_csv_dag.py
+[2024-09-10T03:12:57.857+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/postgres_to_csv_dag.py for tasks to queue
+[2024-09-10T03:12:57.861+0000] {logging_mixin.py:151} INFO - [2024-09-10T03:12:57.860+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_csv_dag.py
+[2024-09-10T03:12:58.393+0000] {processor.py:839} INFO - DAG(s) dict_keys(['postgres_to_csv_dag']) retrieved from /opt/airflow/dags/postgres_to_csv_dag.py
+[2024-09-10T03:12:58.470+0000] {logging_mixin.py:151} INFO - [2024-09-10T03:12:58.470+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-09-10T03:12:58.502+0000] {logging_mixin.py:151} INFO - [2024-09-10T03:12:58.502+0000] {dag.py:3677} INFO - Setting next_dagrun for postgres_to_csv_dag to 2024-09-10T00:00:00+00:00, run_after=2024-09-11T00:00:00+00:00
+[2024-09-10T03:12:58.522+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/postgres_to_csv_dag.py took 0.688 seconds
+[2024-09-10T03:13:10.209+0000] {processor.py:157} INFO - Started process (PID=366) to work on /opt/airflow/dags/postgres_to_csv_dag.py
+[2024-09-10T03:13:10.216+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/postgres_to_csv_dag.py for tasks to queue
+[2024-09-10T03:13:10.219+0000] {logging_mixin.py:151} INFO - [2024-09-10T03:13:10.218+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_csv_dag.py
+[2024-09-10T03:13:11.117+0000] {processor.py:839} INFO - DAG(s) dict_keys(['postgres_to_csv_dag']) retrieved from /opt/airflow/dags/postgres_to_csv_dag.py
+[2024-09-10T03:13:11.211+0000] {logging_mixin.py:151} INFO - [2024-09-10T03:13:11.209+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-09-10T03:13:11.248+0000] {logging_mixin.py:151} INFO - [2024-09-10T03:13:11.247+0000] {dag.py:3677} INFO - Setting next_dagrun for postgres_to_csv_dag to 2024-09-10T00:00:00+00:00, run_after=2024-09-11T00:00:00+00:00
+[2024-09-10T03:13:11.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/postgres_to_csv_dag.py took 1.079 seconds
