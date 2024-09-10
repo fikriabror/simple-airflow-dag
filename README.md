@@ -39,19 +39,20 @@ Airflow is used to pipeline data from PostgreSQL (local) to a CSV file using a D
 
 
 ## 3. Database query results from data ingestion in point 1 or point 2
-	Query result from pentaho processing jobs
-	The query cover 7 query models:
-	1. Overall Churn Rate
-	2. Customer Segmentation
-	3. Contract and Payment Analysis
-	4. Revenue and Charges Analysis
-	5. Service Usage Analysis
-	6. Geographic Analysis
-	7. Churn Reason Analysis
+Query result from pentaho processing jobs
+The query cover 7 query models:
+1. Overall Churn Rate
+2. Customer Segmentation
+3. Contract and Payment Analysis
+4. Revenue and Charges Analysis
+5. Service Usage Analysis
+6. Geographic Analysis
+7. Churn Reason Analysis
+ It's all saved in the file waizly_churn_analysis.sql
 
 
 
 # 4. Data analysis of the results from point 1/2/3 using Excel
-	Data analysis from csv file extracted using airflow DAG
-	Inside the file waizly_data_analysis.xlsx
+Data analysis from csv file extracted using airflow DAG
+Inside the file waizly_data_analysis.xlsx
  ```sh
