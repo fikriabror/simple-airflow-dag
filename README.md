@@ -34,11 +34,11 @@ Airflow is used to pipeline data from PostgreSQL (local) to a CSV file using a D
   - The output file will be stored inside the local container.
 
 - **Copying File to Local Machine:**
-  ```sh
+  
   docker cp <container_id>:/opt/airflow/data/telecom_output_file.csv ~/Documents
 
 
-3. Database query results from data ingestion in point 1 or point 2
+## 3. Database query results from data ingestion in point 1 or point 2
 	Query result from pentaho processing jobs
 	The query cover 7 query models:
 	1. Overall Churn Rate
@@ -51,6 +51,7 @@ Airflow is used to pipeline data from PostgreSQL (local) to a CSV file using a D
 
 
 
-4. Data analysis of the results from point 1/2/3 using Excel
+# 4. Data analysis of the results from point 1/2/3 using Excel
 	Data analysis from csv file extracted using airflow DAG
 	Inside the file waizly_data_analysis.xlsx
+ ```sh
